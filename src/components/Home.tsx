@@ -151,6 +151,9 @@ const Home = () => {
                                         <label htmlFor="">Number of employees</label>
                                         <input type="text" className='input' />
                                     </div>
+                                    <div className="input--container">
+                                        <button> Submit</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
