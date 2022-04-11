@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderImage } from './HeaderImage';
+// import { HeaderImage } from './HeaderImage';
 import PhoneImage from '../assets/phone.png';
 import DashboardImage from '../assets/dashboard.png';
 import Cards from '../assets/cards-removebg-preview.png'
@@ -15,8 +15,7 @@ const Home = () => {
                         <li className='navbar-link'>OneLiquidity</li>
                         <li className='navbar-link'>
                             <ul className='navbar-child-link__container'>
-                                <li className='navbar-child-link'>sign in</li>
-                                <li className='navbar-child-link'>sign up</li>
+                                <li className='navbar-child-link'><button className='btn-submit'>Get started</button></li>
                             </ul>
                         </li>
 
@@ -37,10 +36,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="main-body">
-                <div className="">
+                <div className="mb-7">
                     <div className="mobile-features">
                         <div className="text-center mb-5">
-                            <h1 className="h3">What we do</h1>
+                            <h1 className="h2">What we do</h1>
                             Safe keeping you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
 
                         </div>
@@ -114,14 +113,14 @@ const Home = () => {
 
 
 
-                <div className="white-body ">
+                <div className="white-body mb-5">
                     <div className="text-center feature-title">
                         <h1 className='h1 mb-2'>Tailored solutions & value added services</h1>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores incidunt ut exercitationem sunt,
 
                     </div>
                     <div className="grid--container-center mb-5">
-                        <div className="feature-child-text">
+                        <div className="feature-child-text mb-2">
                             <h3 className='h2'>Dial something to get airtime</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
@@ -130,7 +129,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="grid--container-center mb-5">
-                        <div className="feature-child-text">
+                        <div className="feature-child-text mb-2">
                             <h3 className='h2'>Dial something to get airtime</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
@@ -141,12 +140,12 @@ const Home = () => {
 
                     </div>
                     <div className="grid--container-center mb-5">
-                        <div className="feature-child-text">
+                        <div className="feature-child-text mb-2">
                             <h3 className='h2'>Dial something to get airtime</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
                         <div className="feature-child-image-right">
-                            <img src={Cards} alt="" height="300px" />
+                            <img src={Cards} alt="" height="300px" className='img-card' />
                         </div>
                     </div>
                 </div>
