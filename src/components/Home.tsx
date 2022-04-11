@@ -3,6 +3,7 @@ import { HeaderImage } from './HeaderImage';
 import PhoneImage from '../assets/phone.png';
 import DashboardImage from '../assets/dashboard.png';
 import Cards from '../assets/cards-removebg-preview.png'
+import PeopleImage from '../assets/people-image.jpeg'
 
 
 const Home = () => {
@@ -12,16 +13,6 @@ const Home = () => {
                 <div className="navbar----container">
                     <ul className='navbar__links-container'>
                         <li className='navbar-link'>OneLiquidity</li>
-                        <li className='navbar-link'>
-                            <ul className='navbar-child-link__container'>
-                                <li className='navbar-child-link'>about</li>
-                                <li className='navbar-child-link'>contact</li>
-                                <li className='navbar-child-link'>stuff</li>
-                                <li className='navbar-child-link'>stuff</li>
-                                <li className='navbar-child-link'>stuff</li>
-                                <li className='navbar-child-link'>stuff</li>
-                            </ul>
-                        </li>
                         <li className='navbar-link'>
                             <ul className='navbar-child-link__container'>
                                 <li className='navbar-child-link'>sign in</li>
@@ -39,14 +30,45 @@ const Home = () => {
                     </div>
 
                     <div className="header-image">
-                        <HeaderImage />
+                        {/* <HeaderImage /> */}
+                        <img src={PeopleImage} alt="" />
                     </div>
 
                 </div>
             </div>
             <div className="main-body">
                 <div className="">
+                    <div className="mobile-features">
+                        <div className="text-center mb-5">
+                            <h1 className="h3">What we do</h1>
+                            Safe keeping you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
 
+                        </div>
+                        <div className="feature-text-right__container">
+                            <div className="gr">
+                                <div className="feature-text-right-one">
+                                    <h4 className="h3">Settlement & clearing</h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
+
+                                </div>
+                                <div className="feature-text-right-two">
+                                    <h4 className="h3">Settlement & clearing</h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
+
+                                </div>
+                                <div className="feature-text-right-three">
+                                    <h4 className="h3">Settlement & clearing</h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
+
+                                </div>
+                                <div className="feature-text-right-four">
+                                    <h4 className="h3">Settlement & clearing</h4>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="grid--container-twelve">
                         <div className="dark-blue-rectangle--container">
                             <div className="dark-blue-rectangle">
@@ -90,15 +112,15 @@ const Home = () => {
 
                 </div>
 
-               
-               
+
+
                 <div className="white-body ">
                     <div className="text-center feature-title">
                         <h1 className='h1 mb-2'>Tailored solutions & value added services</h1>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores incidunt ut exercitationem sunt,
 
                     </div>
-                    <div className="grid--container-center">
+                    <div className="grid--container-center mb-5">
                         <div className="feature-child-text">
                             <h3 className='h2'>Dial something to get airtime</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
@@ -107,17 +129,18 @@ const Home = () => {
                             <img src={PhoneImage} alt="" height="300px" />
                         </div>
                     </div>
-                    <div className="grid--container-center">
-                        <div className="">
-                            <img src={DashboardImage} alt="" height="220px" />
-                        </div>
-                        <div className="feature-child-left">
+                    <div className="grid--container-center mb-5">
+                        <div className="feature-child-text">
                             <h3 className='h2'>Dial something to get airtime</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
+                        <div className="feature-child-image-right">
+                            <img src={DashboardImage} alt="" height="220px" />
+                        </div>
+
 
                     </div>
-                    <div className="grid--container-center">
+                    <div className="grid--container-center mb-5">
                         <div className="feature-child-text">
                             <h3 className='h2'>Dial something to get airtime</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
@@ -132,23 +155,23 @@ const Home = () => {
                     <div className="advantages">
                         <h1 className='mb-2 h2 text-center'>Have something else in mind?</h1>
 
-                        <div className="grid--container-center">
-                            <div className="">
+                        <div className="">
+                            <div className="mb-2 text-center">
                                 <h3>Tell us what you need</h3>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam voluptates eveniet ea aspernatur maxime illum mollitia iure. Facilis dolor quo asperiores nesciunt saepe. Exercitationem excepturi consequatur deleniti eos soluta.
                             </div>
                             <div className="form--container">
                                 <div className="form">
-                                   .<div className="grid--container">
-                                   <div className="input--container">
-                                        <label htmlFor="">First Name</label>
-                                        <input type="text" className='input' />
+                                    .<div className="grid--container">
+                                        <div className="input--container">
+                                            <label htmlFor="">First Name</label>
+                                            <input type="text" className='input' />
+                                        </div>
+                                        <div className="input--container">
+                                            <label htmlFor="">Last Name</label>
+                                            <input type="text" className='input' />
+                                        </div>
                                     </div>
-                                    <div className="input--container">
-                                        <label htmlFor="">Last Name</label>
-                                        <input type="text" className='input' />
-                                    </div>
-                                   </div>
                                     <div className="input--container">
                                         <label htmlFor="">Email</label>
                                         <input type="text" className='input' />
@@ -220,9 +243,9 @@ const Home = () => {
             ">
                 <div className="dark-blue-body">
                     <div className="grid--container-four">
-                        
+
                         <div className="footer-about">
-                        <h1 className='h2'>One Liquidity</h1>
+                            <h1 className='h2'>One Liquidity</h1>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sint cumque vitae earum excepturi animi expedita enim neque tempore doloremque dolores, aliquam illum fugiat? Animi cum maiores fuga! Neque, temporibus.
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur perspiciatis fugiat nemo reprehenderit? Rerum officiis distinctio officia perferendis odio vero impedit molestiae, mollitia modi iste qui commodi esse reiciendis perspiciatis?</div>
                         <div className="footer-menu">
