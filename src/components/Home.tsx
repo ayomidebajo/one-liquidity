@@ -139,7 +139,8 @@ const Home = () => {
                             </div>
                             <div className="form--container">
                                 <div className="form">
-                                    <div className="input--container">
+                                   .<div className="grid--container">
+                                   <div className="input--container">
                                         <label htmlFor="">First Name</label>
                                         <input type="text" className='input' />
                                     </div>
@@ -147,6 +148,7 @@ const Home = () => {
                                         <label htmlFor="">Last Name</label>
                                         <input type="text" className='input' />
                                     </div>
+                                   </div>
                                     <div className="input--container">
                                         <label htmlFor="">Email</label>
                                         <input type="text" className='input' />
@@ -218,7 +220,10 @@ const Home = () => {
             ">
                 <div className="dark-blue-body">
                     <div className="grid--container-four">
-                        <div className="footer-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sint cumque vitae earum excepturi animi expedita enim neque tempore doloremque dolores, aliquam illum fugiat? Animi cum maiores fuga! Neque, temporibus.
+                        
+                        <div className="footer-about">
+                        <h1 className='h2'>One Liquidity</h1>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sint cumque vitae earum excepturi animi expedita enim neque tempore doloremque dolores, aliquam illum fugiat? Animi cum maiores fuga! Neque, temporibus.
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur perspiciatis fugiat nemo reprehenderit? Rerum officiis distinctio officia perferendis odio vero impedit molestiae, mollitia modi iste qui commodi esse reiciendis perspiciatis?</div>
                         <div className="footer-menu">
                             <ul className='footer-links__container'>
@@ -229,7 +234,7 @@ const Home = () => {
                         </div>
                         <div className="footer-contact-info">
                             <p>OneLiquidity@mail.com</p>
-                            <p>+234092944546473998223</p>
+                            <p>+2340929445464</p>
                         </div>
                         <div className="">
                             <ul className='footer-social-links__container'>
