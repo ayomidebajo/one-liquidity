@@ -25,7 +25,7 @@ const Home = () => {
                 <div className="header-text__container grid--container">
                     <div className="header-text">
                         <h1 className='h1 mb-2'>The Next Generation Crypto Liquidity Startup</h1>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores incidunt ut exercitationem sunt, reprehenderit debitis beatae molestiae placeat sit animi sequi accusamus saepe laboriosam voluptatibus odit nihil eaque harum non.
+                       With the current dynamics in the Crypto space, there are a lot of startups trying to break into the space and launch something great, we can help you scale and launch your startup faster in a more flexible way.
                     </div>
 
                     <div className="header-image">
@@ -40,7 +40,7 @@ const Home = () => {
                     <div className="mobile-features">
                         <div className="text-center mb-5">
                             <h1 className="h2">Why OneLiquidity?</h1>
-                            Safe you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
+                            Safe keeping your assets with integrated study, trust and escrow solutions personalize services to keep pace with your needs. You have access to the basic and the most important recources a startup in crypto needs.
 
                         </div>
                         <div className="feature-text-right__container">
@@ -84,7 +84,7 @@ const Home = () => {
                         <div className="light-blue-square"></div>
                         <div className="feature-text-left">
                             <h1 className="h3">Why OneLiquidity?</h1>
-                            Safe keeping you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
+                            Safe keeping your assets with integrated study, trust and escrow solutions personalize services to keep pace with your needs. You have access to the basic and the most important recources a startup in crypto needs.
 
                         </div>
                         <div className="blue-main"></div>
