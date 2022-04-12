@@ -18,5 +18,5 @@ You will also see any lint errors in the console.
 ## About the project
 
 Using my own creativity, I built this landing page in the context of crypto liquidity, virtual cards and even a custom integration if necessary for startups.
-I also added some content in these context
+I also added some content in these contexts
 
