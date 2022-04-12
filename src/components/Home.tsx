@@ -4,6 +4,7 @@ import PhoneImage from '../assets/phone.png';
 import DashboardImage from '../assets/dashboard.png';
 import Cards from '../assets/cards-removebg-preview.png'
 import PeopleImage from '../assets/people-image.jpeg'
+import { Cool, EasyIn, Receipts, Vcard } from './resuables/Svg';
 
 
 const Home = () => {
@@ -39,29 +40,35 @@ const Home = () => {
                 <div className="mb-7">
                     <div className="mobile-features">
                         <div className="text-center mb-5">
-                            <h1 className="h2">What we do</h1>
-                            Safe keeping you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
+                            <h1 className="h2">Why OneLiquidity?</h1>
+                            Safe you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
 
                         </div>
                         <div className="feature-text-right__container">
                             <div className="gr">
                                 <div className="feature-text-right-one">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <Receipts />
+                                    <h4 className="h3">Automated receipts</h4>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
                                 <div className="feature-text-right-two">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <Vcard />
+                                    <h4 className="h3">Virtual cards</h4>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
                                 <div className="feature-text-right-three">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <EasyIn />
+                                    <h4 className="h3">Easy integration</h4>
+
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
                                 <div className="feature-text-right-four">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <Cool />
+                                    <h4 className="h3">Ditch bank fees</h4>
+
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
@@ -77,7 +84,7 @@ const Home = () => {
                         </div>
                         <div className="light-blue-square"></div>
                         <div className="feature-text-left">
-                            <h1 className="h3">What we do</h1>
+                            <h1 className="h3">Why OneLiquidity?</h1>
                             Safe keeping you assets with integrated study, trust and escrow solutionsd personalize services to keep pace with your needs
 
                         </div>
@@ -85,22 +92,26 @@ const Home = () => {
                         <div className="feature-text-right__container">
                             <div className="gr">
                                 <div className="feature-text-right-one">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <Receipts />
+                                    <h4 className="h3">Automated receipts</h4>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
                                 <div className="feature-text-right-two">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <Vcard />
+                                    <h4 className="h3">Virtual cards</h4>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
                                 <div className="feature-text-right-three">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <EasyIn />
+                                    <h4 className="h3">Easy integration</h4>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
                                 <div className="feature-text-right-four">
-                                    <h4 className="h3">Settlement & clearing</h4>
+                                    <Cool />
+                                    <h4 className="h3">Ditch bank fees</h4>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet xxx x s
 
                                 </div>
@@ -121,7 +132,7 @@ const Home = () => {
                     </div>
                     <div className="grid--container-center mb-5">
                         <div className="feature-child-text mb-2">
-                            <h3 className='h2'>Dial something to get airtime</h3>
+                            <h3 className='h2'>Buy Crypto easily in app</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
                         <div className="feature-child-image-right">
@@ -130,7 +141,7 @@ const Home = () => {
                     </div>
                     <div className="grid--container-center mb-5">
                         <div className="feature-child-text mb-2">
-                            <h3 className='h2'>Dial something to get airtime</h3>
+                            <h3 className='h2'>See all your assets on the fly</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
                         <div className="feature-child-image-right">
@@ -141,7 +152,7 @@ const Home = () => {
                     </div>
                     <div className="grid--container-center mb-5">
                         <div className="feature-child-text mb-2">
-                            <h3 className='h2'>Dial something to get airtime</h3>
+                            <h3 className='h2'>Own multiple virtual cards</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia ex dolores iure atque alias a possimus dolor magni blanditiis? Nihil eligendi necessitatibus maxime tempore beatae dolor esse quo quas!</p>
                         </div>
                         <div className="feature-child-image-right">

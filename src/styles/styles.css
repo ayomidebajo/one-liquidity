@@ -383,6 +383,10 @@ label {
     grid-auto-rows: minmax(100px, auto);
 }
 
+.svg {
+    fill: #1E4ACE;
+}
+
 /* .footer-links__container {} */
 
 
